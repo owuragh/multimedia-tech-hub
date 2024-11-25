@@ -1,0 +1,43 @@
+/* Custom styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.jumbotron {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 0.3rem;
+}
+
+.card {
+    transition: transform 0.2s;
+    margin-bottom: 1.5rem;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-item {
+    margin-bottom: 1.5rem;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
+}
+
+.resource-link {
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+.resource-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 3rem;
+}
